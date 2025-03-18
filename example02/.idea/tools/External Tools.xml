@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Clean with cmake" description="Cleaning the build dir" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/bin/cmake" />
+      <option name="PARAMETERS" value="--build -t clean" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/CLionProjects/example01/debug-build" />
+    </exec>
+  </tool>
+</toolSet>

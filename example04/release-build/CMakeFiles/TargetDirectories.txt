@@ -1,0 +1,6 @@
+/home/jperme/dev/professional-cpp/example04/release-build/CMakeFiles/application.dir
+/home/jperme/dev/professional-cpp/example04/release-build/CMakeFiles/edit_cache.dir
+/home/jperme/dev/professional-cpp/example04/release-build/CMakeFiles/rebuild_cache.dir
+/home/jperme/dev/professional-cpp/example04/release-build/source/CMakeFiles/library.dir
+/home/jperme/dev/professional-cpp/example04/release-build/source/CMakeFiles/edit_cache.dir
+/home/jperme/dev/professional-cpp/example04/release-build/source/CMakeFiles/rebuild_cache.dir

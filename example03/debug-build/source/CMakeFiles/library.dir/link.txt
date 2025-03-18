@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary.a CMakeFiles/library.dir/SpreadSheetCell.cpp.o CMakeFiles/library.dir/Bar.cpp.o CMakeFiles/library.dir/Foo.cpp.o
+/usr/bin/ranlib liblibrary.a
