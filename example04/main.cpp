@@ -6,9 +6,10 @@
 #include <string>
 #include <format>
 #include <memory>
-#include <SpreadSheetCell.h>
+#include <SpreadsheetCell.h>
 #include <Spreadsheet.h>
 #include <DataHolder.h>
+#include <Operators.h>
 
 
 using namespace std::literals; // tole rabimo, ce zelimo uporabljati famozni "s" na koncu stringa, da forsiramo da se iz literala res kreira std::string tip in ne char *
@@ -92,13 +93,14 @@ int main() {
 
     SpreadsheetCell cell1(2.75);
     SpreadsheetCell cell2(4.75);
-    // SpreadsheetCell cell3 = cell1 + cell2;
+    SpreadsheetCell cell3 = cell1 + cell2;
     std::cout << "sum = cell3 = " << cell3.getValue() << "\n";
 
+    SpreadsheetCell cell4 = cell1 * cell2;
+    std::cout << "mult = cell4 = " << cell4.getValue() << "\n";
 
-
-
-
+    // SpreadsheetCell cell4 = 3 + cell2; // rabili bi bodisi globalni operator+ in converting ctor, da 3 spremeni v objekt SpreadsheetCell avtomatsko
+                                          // ali pa globalni operator, ki prejme za prvi argument int, drugi pa SpreadsheetCell objekt. Tako operator deluje pac.
 
 //    demo za data holder da pocekiramo kako in kdaj pride do uporabe klica ene ali druge metode
     std::cout << "DataHolder demo" << "\n";
@@ -106,10 +108,6 @@ int main() {
     std::vector myData{11,22,33};
     wrapper.setData(myData);        // klic l-value reference
     wrapper.setData({1,2,3,4});     // klic r-value reference
-
-
-
-
 
     return 0;
 }

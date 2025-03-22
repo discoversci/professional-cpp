@@ -219,10 +219,11 @@ CMakeFiles/application.dir/main.cpp.o: \
  /usr/include/c++/13/bits/ranges_uninitialized.h \
  /usr/include/c++/13/pstl/glue_memory_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
- /home/jperme/dev/professional-cpp/example04/source/include/SpreadSheetCell.h \
+ /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetCell.h \
  /home/jperme/dev/professional-cpp/example04/source/include/Spreadsheet.h \
  /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetApplication.h \
  /home/jperme/dev/professional-cpp/example04/source/include/DataHolder.h \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/jperme/dev/professional-cpp/example04/source/include/Operators.h

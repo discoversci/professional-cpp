@@ -130,29 +130,29 @@ library/fast:
 	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/build
 .PHONY : library/fast
 
-SpreadSheetCell.o: SpreadSheetCell.cpp.o
-.PHONY : SpreadSheetCell.o
+Operators.o: Operators.cpp.o
+.PHONY : Operators.o
 
 # target to build an object file
-SpreadSheetCell.cpp.o:
-	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o
-.PHONY : SpreadSheetCell.cpp.o
+Operators.cpp.o:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/Operators.cpp.o
+.PHONY : Operators.cpp.o
 
-SpreadSheetCell.i: SpreadSheetCell.cpp.i
-.PHONY : SpreadSheetCell.i
+Operators.i: Operators.cpp.i
+.PHONY : Operators.i
 
 # target to preprocess a source file
-SpreadSheetCell.cpp.i:
-	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadSheetCell.cpp.i
-.PHONY : SpreadSheetCell.cpp.i
+Operators.cpp.i:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/Operators.cpp.i
+.PHONY : Operators.cpp.i
 
-SpreadSheetCell.s: SpreadSheetCell.cpp.s
-.PHONY : SpreadSheetCell.s
+Operators.s: Operators.cpp.s
+.PHONY : Operators.s
 
 # target to generate assembly for a file
-SpreadSheetCell.cpp.s:
-	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadSheetCell.cpp.s
-.PHONY : SpreadSheetCell.cpp.s
+Operators.cpp.s:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/Operators.cpp.s
+.PHONY : Operators.cpp.s
 
 Spreadsheet.o: Spreadsheet.cpp.o
 .PHONY : Spreadsheet.o
@@ -202,6 +202,30 @@ SpreadsheetApplication.cpp.s:
 	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadsheetApplication.cpp.s
 .PHONY : SpreadsheetApplication.cpp.s
 
+SpreadsheetCell.o: SpreadsheetCell.cpp.o
+.PHONY : SpreadsheetCell.o
+
+# target to build an object file
+SpreadsheetCell.cpp.o:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o
+.PHONY : SpreadsheetCell.cpp.o
+
+SpreadsheetCell.i: SpreadsheetCell.cpp.i
+.PHONY : SpreadsheetCell.i
+
+# target to preprocess a source file
+SpreadsheetCell.cpp.i:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadsheetCell.cpp.i
+.PHONY : SpreadsheetCell.cpp.i
+
+SpreadsheetCell.s: SpreadsheetCell.cpp.s
+.PHONY : SpreadsheetCell.s
+
+# target to generate assembly for a file
+SpreadsheetCell.cpp.s:
+	cd /home/jperme/dev/professional-cpp/example04/release-build && $(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/SpreadsheetCell.cpp.s
+.PHONY : SpreadsheetCell.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -211,15 +235,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... library"
-	@echo "... SpreadSheetCell.o"
-	@echo "... SpreadSheetCell.i"
-	@echo "... SpreadSheetCell.s"
+	@echo "... Operators.o"
+	@echo "... Operators.i"
+	@echo "... Operators.s"
 	@echo "... Spreadsheet.o"
 	@echo "... Spreadsheet.i"
 	@echo "... Spreadsheet.s"
 	@echo "... SpreadsheetApplication.o"
 	@echo "... SpreadsheetApplication.i"
 	@echo "... SpreadsheetApplication.s"
+	@echo "... SpreadsheetCell.o"
+	@echo "... SpreadsheetCell.i"
+	@echo "... SpreadsheetCell.s"
 .PHONY : help
 
 

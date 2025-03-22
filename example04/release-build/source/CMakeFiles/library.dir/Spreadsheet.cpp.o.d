@@ -15,7 +15,7 @@ source/CMakeFiles/library.dir/Spreadsheet.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
  /usr/include/c++/13/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/jperme/dev/professional-cpp/example04/source/include/SpreadSheetCell.h \
+ /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetCell.h \
  /usr/include/c++/13/memory /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \

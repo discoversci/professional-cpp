@@ -4,9 +4,10 @@
 CMakeFiles/application.dir/main.cpp.o
  /home/jperme/dev/professional-cpp/example04/main.cpp
  /home/jperme/dev/professional-cpp/example04/source/include/DataHolder.h
- /home/jperme/dev/professional-cpp/example04/source/include/SpreadSheetCell.h
+ /home/jperme/dev/professional-cpp/example04/source/include/Operators.h
  /home/jperme/dev/professional-cpp/example04/source/include/Spreadsheet.h
  /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetApplication.h
+ /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetCell.h
  /usr/include/alloca.h
  /usr/include/asm-generic/errno-base.h
  /usr/include/asm-generic/errno.h

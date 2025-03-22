@@ -3,9 +3,10 @@
 
 CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example04/main.cpp \
   /home/jperme/dev/professional-cpp/example04/source/include/DataHolder.h \
-  /home/jperme/dev/professional-cpp/example04/source/include/SpreadSheetCell.h \
+  /home/jperme/dev/professional-cpp/example04/source/include/Operators.h \
   /home/jperme/dev/professional-cpp/example04/source/include/Spreadsheet.h \
   /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetApplication.h \
+  /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetCell.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -389,8 +390,6 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/x86_64-linux-gnu/bits/local_lim.h:
@@ -433,6 +432,8 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/wchar.h:
 
+/usr/include/unistd.h:
+
 /usr/include/c++/13/bits/stl_construct.h:
 
 /usr/include/c++/13/bits/stl_bvector.h:
@@ -450,12 +451,6 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 /usr/include/c++/13/bits/refwrap.h:
 
 /usr/include/c++/13/istream:
-
-/usr/include/c++/13/bits/ranges_util.h:
-
-/usr/include/x86_64-linux-gnu/sys/syscall.h:
-
-/usr/include/c++/13/bits/allocator.h:
 
 /usr/include/c++/13/bits/ranges_cmp.h:
 
@@ -507,8 +502,6 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/unistd.h:
-
 /usr/include/c++/13/cwctype:
 
 /usr/include/c++/13/bits/locale_conv.h:
@@ -543,6 +536,12 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/bits/hash_bytes.h:
 
+/usr/include/c++/13/backward/auto_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/home/jperme/dev/professional-cpp/example04/main.cpp:
+
 /usr/include/c++/13/bit:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
@@ -561,19 +560,11 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/bits/atomic_base.h:
 
-/usr/include/c++/13/bits/stl_function.h:
+/usr/include/c++/13/bits/codecvt.h:
 
-/usr/include/c++/13/backward/auto_ptr.h:
+/usr/include/alloca.h:
 
 /usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/home/jperme/dev/professional-cpp/example04/main.cpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
-
-/usr/include/c++/13/ext/aligned_buffer.h:
 
 /usr/include/c++/13/array:
 
@@ -639,8 +630,6 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
-/home/jperme/dev/professional-cpp/example04/source/include/SpreadSheetCell.h:
-
 /home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetApplication.h:
 
 /usr/include/stdlib.h:
@@ -649,17 +638,15 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/bits/basic_ios.h:
 
-/usr/include/c++/13/bits/codecvt.h:
+/usr/include/c++/13/bits/ranges_util.h:
 
-/usr/include/alloca.h:
+/usr/include/x86_64-linux-gnu/sys/syscall.h:
 
-/usr/include/c++/13/limits:
+/usr/include/c++/13/bits/allocator.h:
 
-/usr/include/pthread.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/cctype:
+/home/jperme/dev/professional-cpp/example04/source/include/Operators.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -671,17 +658,13 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/span:
 
-/usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/c++/13/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
 /usr/include/c++/13/bits/allocated_ptr.h:
 
 /usr/include/c++/13/bits/ranges_base.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
@@ -690,6 +673,18 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
 /usr/include/c++/13/bits/cxxabi_forced.h:
+
+/usr/include/c++/13/limits:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/c++/13/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
 
@@ -700,6 +695,8 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/c++/13/bits/stl_iterator.h:
 
@@ -757,6 +754,10 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 
 /usr/include/c++/13/format:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
+
+/usr/include/c++/13/ext/aligned_buffer.h:
+
 /usr/include/errno.h:
 
 /usr/include/c++/13/ext/atomicity.h:
@@ -806,6 +807,8 @@ CMakeFiles/application.dir/main.cpp.o: /home/jperme/dev/professional-cpp/example
 /usr/include/c++/13/type_traits:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/home/jperme/dev/professional-cpp/example04/source/include/SpreadsheetCell.h:
 
 /usr/include/features.h:
 

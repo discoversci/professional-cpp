@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/library.dir/SpreadSheetCell.cpp.o"
-  "CMakeFiles/library.dir/SpreadSheetCell.cpp.o.d"
+  "CMakeFiles/library.dir/Operators.cpp.o"
+  "CMakeFiles/library.dir/Operators.cpp.o.d"
   "CMakeFiles/library.dir/Spreadsheet.cpp.o"
   "CMakeFiles/library.dir/Spreadsheet.cpp.o.d"
   "CMakeFiles/library.dir/SpreadsheetApplication.cpp.o"
   "CMakeFiles/library.dir/SpreadsheetApplication.cpp.o.d"
+  "CMakeFiles/library.dir/SpreadsheetCell.cpp.o"
+  "CMakeFiles/library.dir/SpreadsheetCell.cpp.o.d"
   "liblibrary.a"
   "liblibrary.pdb"
 )

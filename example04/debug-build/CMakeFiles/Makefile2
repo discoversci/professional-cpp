@@ -103,7 +103,7 @@ CMakeFiles/application.dir/all: source/CMakeFiles/library.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/application.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/application.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 0
 .PHONY : CMakeFiles/application.dir/rule
@@ -124,12 +124,12 @@ CMakeFiles/application.dir/clean:
 source/CMakeFiles/library.dir/all:
 	$(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/depend
 	$(MAKE) $(MAKESILENT) -f source/CMakeFiles/library.dir/build.make source/CMakeFiles/library.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=3,4,5,6 "Built target library"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=3,4,5,6,7 "Built target library"
 .PHONY : source/CMakeFiles/library.dir/all
 
 # Build rule for subdir invocation for target.
 source/CMakeFiles/library.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 source/CMakeFiles/library.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles 0
 .PHONY : source/CMakeFiles/library.dir/rule

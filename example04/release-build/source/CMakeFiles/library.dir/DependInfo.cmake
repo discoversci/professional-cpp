@@ -8,9 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/jperme/dev/professional-cpp/example04/source/SpreadSheetCell.cpp" "source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o" "gcc" "source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o.d"
+  "/home/jperme/dev/professional-cpp/example04/source/Operators.cpp" "source/CMakeFiles/library.dir/Operators.cpp.o" "gcc" "source/CMakeFiles/library.dir/Operators.cpp.o.d"
   "/home/jperme/dev/professional-cpp/example04/source/Spreadsheet.cpp" "source/CMakeFiles/library.dir/Spreadsheet.cpp.o" "gcc" "source/CMakeFiles/library.dir/Spreadsheet.cpp.o.d"
   "/home/jperme/dev/professional-cpp/example04/source/SpreadsheetApplication.cpp" "source/CMakeFiles/library.dir/SpreadsheetApplication.cpp.o" "gcc" "source/CMakeFiles/library.dir/SpreadsheetApplication.cpp.o.d"
+  "/home/jperme/dev/professional-cpp/example04/source/SpreadsheetCell.cpp" "source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o" "gcc" "source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

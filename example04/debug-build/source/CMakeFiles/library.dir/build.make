@@ -69,19 +69,19 @@ include source/CMakeFiles/library.dir/progress.make
 # Include the compile flags for this target's objects.
 include source/CMakeFiles/library.dir/flags.make
 
-source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o: source/CMakeFiles/library.dir/flags.make
-source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o: /home/jperme/dev/professional-cpp/example04/source/SpreadSheetCell.cpp
-source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o: source/CMakeFiles/library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o"
-	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o -MF CMakeFiles/library.dir/SpreadSheetCell.cpp.o.d -o CMakeFiles/library.dir/SpreadSheetCell.cpp.o -c /home/jperme/dev/professional-cpp/example04/source/SpreadSheetCell.cpp
+source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o: source/CMakeFiles/library.dir/flags.make
+source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o: /home/jperme/dev/professional-cpp/example04/source/SpreadsheetCell.cpp
+source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o: source/CMakeFiles/library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o -MF CMakeFiles/library.dir/SpreadsheetCell.cpp.o.d -o CMakeFiles/library.dir/SpreadsheetCell.cpp.o -c /home/jperme/dev/professional-cpp/example04/source/SpreadsheetCell.cpp
 
-source/CMakeFiles/library.dir/SpreadSheetCell.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/SpreadSheetCell.cpp.i"
-	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jperme/dev/professional-cpp/example04/source/SpreadSheetCell.cpp > CMakeFiles/library.dir/SpreadSheetCell.cpp.i
+source/CMakeFiles/library.dir/SpreadsheetCell.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/SpreadsheetCell.cpp.i"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jperme/dev/professional-cpp/example04/source/SpreadsheetCell.cpp > CMakeFiles/library.dir/SpreadsheetCell.cpp.i
 
-source/CMakeFiles/library.dir/SpreadSheetCell.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/SpreadSheetCell.cpp.s"
-	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jperme/dev/professional-cpp/example04/source/SpreadSheetCell.cpp -o CMakeFiles/library.dir/SpreadSheetCell.cpp.s
+source/CMakeFiles/library.dir/SpreadsheetCell.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/SpreadsheetCell.cpp.s"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jperme/dev/professional-cpp/example04/source/SpreadsheetCell.cpp -o CMakeFiles/library.dir/SpreadsheetCell.cpp.s
 
 source/CMakeFiles/library.dir/Spreadsheet.cpp.o: source/CMakeFiles/library.dir/flags.make
 source/CMakeFiles/library.dir/Spreadsheet.cpp.o: /home/jperme/dev/professional-cpp/example04/source/Spreadsheet.cpp
@@ -111,21 +111,37 @@ source/CMakeFiles/library.dir/SpreadsheetApplication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/SpreadsheetApplication.cpp.s"
 	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jperme/dev/professional-cpp/example04/source/SpreadsheetApplication.cpp -o CMakeFiles/library.dir/SpreadsheetApplication.cpp.s
 
+source/CMakeFiles/library.dir/Operators.cpp.o: source/CMakeFiles/library.dir/flags.make
+source/CMakeFiles/library.dir/Operators.cpp.o: /home/jperme/dev/professional-cpp/example04/source/Operators.cpp
+source/CMakeFiles/library.dir/Operators.cpp.o: source/CMakeFiles/library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object source/CMakeFiles/library.dir/Operators.cpp.o"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT source/CMakeFiles/library.dir/Operators.cpp.o -MF CMakeFiles/library.dir/Operators.cpp.o.d -o CMakeFiles/library.dir/Operators.cpp.o -c /home/jperme/dev/professional-cpp/example04/source/Operators.cpp
+
+source/CMakeFiles/library.dir/Operators.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/library.dir/Operators.cpp.i"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jperme/dev/professional-cpp/example04/source/Operators.cpp > CMakeFiles/library.dir/Operators.cpp.i
+
+source/CMakeFiles/library.dir/Operators.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/library.dir/Operators.cpp.s"
+	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jperme/dev/professional-cpp/example04/source/Operators.cpp -o CMakeFiles/library.dir/Operators.cpp.s
+
 # Object files for target library
 library_OBJECTS = \
-"CMakeFiles/library.dir/SpreadSheetCell.cpp.o" \
+"CMakeFiles/library.dir/SpreadsheetCell.cpp.o" \
 "CMakeFiles/library.dir/Spreadsheet.cpp.o" \
-"CMakeFiles/library.dir/SpreadsheetApplication.cpp.o"
+"CMakeFiles/library.dir/SpreadsheetApplication.cpp.o" \
+"CMakeFiles/library.dir/Operators.cpp.o"
 
 # External object files for target library
 library_EXTERNAL_OBJECTS =
 
-source/liblibrary.a: source/CMakeFiles/library.dir/SpreadSheetCell.cpp.o
+source/liblibrary.a: source/CMakeFiles/library.dir/SpreadsheetCell.cpp.o
 source/liblibrary.a: source/CMakeFiles/library.dir/Spreadsheet.cpp.o
 source/liblibrary.a: source/CMakeFiles/library.dir/SpreadsheetApplication.cpp.o
+source/liblibrary.a: source/CMakeFiles/library.dir/Operators.cpp.o
 source/liblibrary.a: source/CMakeFiles/library.dir/build.make
 source/liblibrary.a: source/CMakeFiles/library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library liblibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jperme/dev/professional-cpp/example04/debug-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblibrary.a"
 	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && $(CMAKE_COMMAND) -P CMakeFiles/library.dir/cmake_clean_target.cmake
 	cd /home/jperme/dev/professional-cpp/example04/debug-build/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/library.dir/link.txt --verbose=$(VERBOSE)
 

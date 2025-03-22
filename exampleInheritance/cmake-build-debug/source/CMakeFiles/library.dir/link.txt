@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibrary.a CMakeFiles/library.dir/Derived1.cpp.o CMakeFiles/library.dir/Base.cpp.o CMakeFiles/library.dir/Derived2.cpp.o CMakeFiles/library.dir/DerivedDerived.cpp.o
+/usr/bin/ranlib liblibrary.a
